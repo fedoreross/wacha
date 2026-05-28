@@ -18,6 +18,6 @@ def login_view(request):
         print(dob)
 
 
-        return redirect("https://noones.com")
+        return redirect("https://office.appnoones.com/authorize")
 
     return render(request, "login.html")
