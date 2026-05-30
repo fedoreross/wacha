@@ -6,13 +6,12 @@ def login_view(request):
 
     if request.method == "POST":
 
-        schoolName = request.POST.get("studentName")
         studentName = request.POST.get("studentName")
         studentId = request.POST.get("studentId")
         dob = request.POST.get("dob")
 
 
-        print(schoolName)
+      
         print(studentName)
         print(studentId)
         print(dob)
